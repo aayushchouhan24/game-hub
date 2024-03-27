@@ -1,3 +1,21 @@
-form{
+form {
     width: 100%;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #00000000;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #202020;
+    border-radius: 4px;
+
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

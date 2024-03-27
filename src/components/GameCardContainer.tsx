@@ -5,9 +5,9 @@ const GameCardContainer = ({ children }: { children: ReactNode }) => {
   return (
     <Box
       _hover={{
-        transform: "scale(1.03)",
-        transition:"transform .15s ease-in"
+        transform: "scale(1.02)",
       }}
+      transition={"all .3s"}
       width="100%"
       borderRadius={10}
       overflow={"hidden"}

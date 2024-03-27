@@ -10,6 +10,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools/production";
 import { RouterProvider } from "react-router-dom";
 import router from "./routes.tsx";
 
+
 const queryClint = new QueryClient();
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

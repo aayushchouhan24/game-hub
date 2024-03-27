@@ -1,7 +1,7 @@
 import { Heading } from "@chakra-ui/react";
 import usePlatform from "../hooks/usePlatform";
 import useGenre from "../hooks/useGenre";
-import useGameQueryStore from "../store";
+import useGameQueryStore from "../stores/GameQueryStore";
 
 const GameHeading = () => {
   const [genreId, platformId] = useGameQueryStore((s) => [

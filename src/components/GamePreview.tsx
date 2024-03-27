@@ -1,4 +1,4 @@
-import { AspectRatio, Badge, Box, HStack, Image } from "@chakra-ui/react";
+import { AspectRatio, Box, HStack, Image } from "@chakra-ui/react";
 import { useRef, useState } from "react";
 import useTrailers from "../hooks/useTrailers";
 import Game from "../entities/Game";
